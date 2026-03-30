@@ -1,0 +1,850 @@
+***** LOGIN 1 ***************
+Tipo: Funcionario
+abigail.huayta
+abc123
+
+
+***** LOGIN 1 ****** FRONT PRUEBAS*********************************************
+luis.landaeta
+abc123
+
+URL: https://desasiat.impuestos.gob.bo/pruebasCuentaCorriente/#/landing
+
+***** LOGIN 2 ***** FRONT SCC-CONC-FRONT Y SCC-PAR-FRONT SCC-PRU-FRONT***************************
+
+
+URL - PARAMETRICA
+https://desasiat.impuestos.gob.bo/cuenta-corriente/adm-parametricas/#/landing
+URL - CONSULTA CUENTA CORRIENTE
+https://desasiat.impuestos.gob.bo/cuenta-corriente
+******************************************************************************
+3449308
+omar.callejas@impuestos.gob.bo
+Abc.123#
+
+*****************************
+3449308
+andy.duran@impuestos.gob.bo
+Abc.123#
+
+******************************************************************************
+******************************************************************************
+USUARIO PARA PRE
+
+
+
+ivan.ulo
+Abcd.12345#
+
+livia.vargas
+Abcd.12345#
+
+
+****************
+
+
+
+******************************************************************************
+
+
+******* SQL USUARIO *********
+-- 1) Usuario
+select * from sau_usuarios_v2.sau_usuarios su
+where su.login = 'victor.apaza@impuestos.gob.bo'
+order by su.usuario_id desc
+
+-- 2) Tipos de usuarios Login V2
+select * from sau_usuarios_v2.sau_usuarios_tipo sut 
+where sut.usuario_id = 5002681
+
+-- 3) Roles de usuario
+select * from sau_usuarios_v2.sau_usuarios_tipo_roles sutr 
+where sutr.adm_usuario_tipo_id = 5062
+and sutr.estado_usuario_tipo_rol_id = 8663 --ACTIVO
+and rol_id = 10743
+
+-- 4) PIN para login
+select pin_id, pin, identificador, fecha_registro from str_transversales.str_adm_pines sap 
+order by sap.pin_id desc
+*****************************
+
+6623322
+isaac.rueda@impuestos.gob.bo
+Abc.123#
+
+10964
+
+*****   NIT DE PRUEBAS   ****
+
+ 183024024  ->  10002571683  -  10002548734
+
+    2280316015 -> CALI
+    120191027 --> CALI
+
+123437023 --> CALI COMISION
+
+
+ 1015889027 **COMISION
+    1020493029
+                10000308662  - ley 1340 - > 10000010624 proceso 77 ---> CALI -> DEUDA_ID 280913 proceso 76
+    deudaId     10002548734
+                10000389865
+                    1991505
+    morosoId    10000389870
+
+ 1234567890 --> DDJJ --> 998989 pNroOrden 
+ 1009409023 -> 10000354347 
+
+ 4330641013 DSA
+
+ 3858181012--
+ 3099982011* VALORES REDIMIDOS
+ 1020703023 ##############
+
+    1005185029
+183024024
+1015625022
+
+NIT
+136297020
+1000871023
+141923022
+1020391026
+5992627010
+
+***** COMISION
+
+
+791775019
+1142449017
+120915022 -
+
+025805024
+193208025
+375483026
+1024037026
+5241679015
+392962017
+1280999016
+173836021
+5677391013
+
+*****************************
+*** TRANSVERSAL - CALI
+bdpgcalisiat.sin.gobierno.bo
+pool_str_transversales
+V3AFhDFxcDd12iT7
+puerto: 5432
+
+----*********** DUDIE **************
+    "nitCur":1020499025,
+    "dudie":2920637266,
+    "numeroOrdenFiscalizacion":100,
+    "oficinaId":0
+----**************************
+1020703023 -> ENTEL
+1020255020 -> TIGO
+
+
+this.motivoUsoSancion = [
+      {id: 297, descripcion:	"MONTO INICIAL DE LA DEUDA"},
+      {id: 296, descripcion:	"MONTO SALDO DE LA DEUDA"},      
+    ]
+
+-----------------------------------------
+|   7c243288-f441-4e11-9737-c70a59686b15 DESA
+|
+|   c7ad08bd-f58b-4556-9d13-585fc9cb308e CALI
+-----------------------------------------
+
+
+DEUDA Y LIQUIDACIONES -> PDD
+MAYORES Y ASIENTO DETALLE - RELACIONADA -> CUENTA
+BOLSAS -> PDD
+
+
+
+obtenerMayorPorDeuda -> ccc-api-rest
+
+1243
+Felix -> migración
+
+
+--------------------
+
+* IMPUGNACION CAMPO AGREGAR EN - PARAMETROS VARIACIÓN CÁLCULOS
+* FECHA HASTA NULL
+CAMPO IMPUGNADO, ANTES DE MOTIVO USO SANCION
+
+IMPUNADO_ID INT4
+
+
+montoPagoBs -> monto efectivomo
+
+"montoPagoBs": 5000.75, --->> Pago en efectivo
+
+
+
+registro-cuenta-corriente   --->    registro-deudas-manuales
+
+                                    registro-transacciones-manuales
+
+
+
+
+
+--*************************
+
+
+
+pool_str_transversales
+jdbc:postgresql://bdpgdesa2siat.sin.gobierno.bo:5432/dsau
+poolstrXYZ
+
+usuario: pool_str_transversales
+passwd: V3AFhDFxcDd12iT7
+base: dsau
+canonica: bdpgcalisiat4.sin.gobierno.bo
+puerto: 5432
+eso es
+para desa y calidad
+
+
+
+#####################################
+USUARIO PARA CONSULTA CC
+***********************************
+1057707
+Gladis Martinez
+
+***********************************
+Renan Aguire
+4250451
+renan.aguirre@impuestos.gob.bo
+Abc.123#
+e
+**********************************
+monica.villazon@impuestos.gob.bo
+2140471
+7477954
+minerva.iporre@impuestos.gob.bo",
+*********************************
+6894451
+Tania Mamani
+
+4955492
+eddy.valero@impuestos.gob.bo
+Abc.123#
+
+5992627
+livia.vargas@impuestos.gob.bo
+Abc.123#
+
+5940904  
+cecilia.maceda@impuestos.gob.bo 
+Abc.123#
+
+6789190
+victor.apaza@impuestos.gob.bo
+Sin.123.2024
+Abc.123#
+
+*** COMISION USUARIO DE PRUEBA
+181068028	
+correo577@pruebas33.pru	
+Abc.123#
+
+
+lourdes.vega@impuestos.gob.bo
+Abc.123#
+
+*** CONTRIBUYENTE
+    
+3370567012
+parapruebasddjj@gmail.com
+Abc.123#
+--LV2
+613522018
+parapruebas2ddjj@gmail.com
+Abc.123#
+
+3646861010
+10tcb4h3rs@ibolinva.com
+Abc.123#
+
+Abcd.12345#
+------------------------------------------
+Formato para ingresar en DESA o CALI
+------------------------------------------
+nit: nronit
+correo:nronit@correo.com
+pass: Abc.123#
+
+Ejemplo:
+nit: 1073569012
+correo:1073569012@correo.com
+pass: Abc.123#
+------------------------------------------
+@6894451@
+
+
+maria.cardenas@impuestos.gob.bo 2631299
+ gregoria.suyo@impuestos.gob.bo   7061253
+
+
+        OBSERVACIONES
+
+Imputacion Boleteas de pago -> 
+Pagos a cuenta Boletas de Pago
+
+Documento Agrupado Fecha notificacion no obligatorio
+
+Numero Orden registrar con 0 por defecto
+
+gilka.salas@impuestos.gob.bo
+2053774
+****************************************************************************
+carla.ayala@impuestos.gob.bo
+nitCur: 8032345
+Deter.2025
+****************************************************************************
+claudia.quispe@impuestos.gob.bo
+8345014
+Sin.2025---*
+****************************************************************************
+9120440
+limbert.paz@impuestos.gob.bo
+
+fatima.lopeza
+1633922Mil+
+la boleta ya fue asociada a un identificador de deuda existente
+
+****************
+fatima.lopeza@impuestos.gob.bo
+8329267
+Abc.123#
+****************************************
+oficinaId: 10,
+CI 5653324
+david.robles@impuestos.gob.bo
+Abc.123#
+
+oficinaId: 76,
+CI 9782382
+denny.valverde@impuestos.gob.bo
+Abc.123#
+
+
+modificarMontoDeuda
+
+reemplar actuali historico 
+anterior vigente
+
+
+---- BOLSAS
+compensacion
+ice
+STI
+
+00a65a
+ebfaf2
+
+Luis Landaeta - 1283
+
+
+-------------------------------
+
+
+10985 Procesos Adicionales cuenta corriente
+10738 Consultas Internas
+11035 Consultas Contribuyente
+
+
+-----------------------------------------
+
+// playground requires you to assign document definition to a variable called dd
+
+var dd = {
+    header: function (currentPage, pageCount, pageSize) {
+        return [
+            {
+                image: 'da11234C',  
+                width: 220,                        
+                alignment: 'left',                
+                margin: [0, 30, 20, 0]             
+            },
+            {
+                image: 'data:imaSuQmCC',  
+                width: 220,                        
+                alignment: 'right',                
+                margin: [0, 30, 20, 0]             
+            }
+        ];
+    },
+	content: [
+	      { text: '', fontSize: 10, lineHeight: 50 },  
+        { text: '¡Hola desde un componente standalone en Angular 18!', fontSize: 16 },
+        { text: 'Este PDF fue generado usando pdfMake.', fontSize: 12 },
+    ],
+    pageMargins: [20, 100, 20, 20], 
+}
+
+
+
+
+7849639
+
+
+10002650870
+
+
+----**************
+
+DO $$
+BEGIN
+  IF EXISTS (
+    SELECT 1 FROM sen_entorno.sen_aplicaciones WHERE aplicacion_id = 10622
+  ) THEN
+
+  else
+  
+  END IF;
+END $$;
+
+
+para pre es la siguiente: jdbc:postgresql://dbpgusuariosprep.sin.gobierno.bo:5432/dsau
+para pro es la siguiente: jdbc:postgresql://bdpgusuariosprod.sin.gobierno.bo:5832/dsau
+
+
+
+
+
+
+
+
+
+10937;10460;  
+
+10428;10447
+10456;10448;
+
+
+10937	SCC_EXTRACTO_TRIBUTARIO
+10460	SCC_DEUDAS_CONTRIBUYENTE
+
+
+
+
+
+
+
+
+
+
+
+
+
+http://git.impuestos.gob.bo/22-cuenta-corriente/cuenta-corriente-scc/scc-pru-front/-/pipelines?scope=all&page=1
+
+
+http://git.impuestos.gob.bo/22-cuenta-corriente/liquidacion-sli/agrupador-identificadores-de-deuda-aid/sli-aid/-/pipelines
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10004149036
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4579012,8
+5996011,2
+9074011,11
+14078012,4
+15655011,3
+16517015,2
+17741012,2
+18144011,19
+20673013,2
+26847013,1
+35925013,24
+39430011,24
+42520015,2
+52370012,1
+58871012,14
+61004014,35
+69775015,4
+72229012,3
+73989014,1
+
+
+
+
+
+
+
+
+"fernando yanez" <fernando.yanez@impuestos.gob.bo>; "Gilka Corina Salas Gutierrez" <gilka.salas@impuestos.gob.bo>; 
+
+"Helga Carola Angelo Vargas" <helga.angelo@impuestos.gob.bo>; "Karina Montevilla Tancara" <karina.montevilla@impuestos.gob.bo>; 
+
+
+
+6398279
+pablo.vaca@impuestos.gob.bo
+
+6943883
+freddy.quispe@impuestos.gob.bo
+
+6836172
+galo.aduviri@impuestos.gob.bo
+
+
+
+
+NitCur = 5785952015
+deudaId = 13092107
+
+4821327019
+
+
+
+
+165584024
+
+
+
+
+
+
+10004354215 TRIBUTO OMITIDO             4.710,29        0,00
+
+10004354216 TRIBUTO OMITIDO             4.710,29        0,00  ---
+
+10004354219 TRIBUTO OMITIDO             2.448,28        0,00  ---
+10004354219 A TRIBUTO OMITIDO           0,00        2.448,28
+10004354219 A MANTENIMIENTO DE VALOR    0,00           39,80
+10004354219 A INTERES                   0,00           11,92
+
+
+10004354218 TRIBUTO OMITIDO             979,31          0,00   ---
+10004354218 A TRIBUTO OMITIDO           0,00          979,31
+10004354218 A MANTENIMIENTO DE VALOR    0,00           15,92
+10004354218 A INTERES                   0,00            4,77
+
+
+
+------
+811579017
+
+Boleta de Pago
+deudaId: 7006170543
+NIT: 811579017
+ambiente CALI
+
+
+
+
+SELECT bolsa_credito_externo_id, nit_cur, tipo_contribuyente_pdr_id,
+deuda_id, liquidacion_id, moneda_id, tipo_monto_credito_id, periodo, anio, formulario_id,
+credito_externo_bs, saldo_credito_externo_bs, tipo_cambio, casilla_concepto_id, estado_bolsa_id, fecha_registro 
+FROM scc_cuenta_bolsas.scc_bolsa_credito_externo
+WHERE nit_cur=:nit_cur and 
+tipo_contribuyente_pdr_id = :tipo_contribuyente_pdr_id and estado_id=:estado_id 
+ and estado_bolsa_id <> :estado_bolsa_id 
+ order by anio desc, periodo desc, fecha_registro desc
+
+
+
+
+1333892 
+
+
+
+
+
+
+
+
+{
+    "objeto": {
+        "administracion": 30,
+        "contribuyenteId": 1001760291,
+        "tipoContribuyenteId": 723,
+        "estadoNit": "1",
+        "estadoDescripcion": "ACTIVO",
+        "razonSocial": "CONDORI ESPINOZA JUANA",
+        "nit": 6145294012
+    },
+    "transaccion": true,
+    "mensajes": []
+}
+
+
+{
+    "sub": "ed35af29-3c95-45d5-9cee-2a57db801019",
+    "datosUsuariosOld": [
+        {
+            "personaId": 1002228283,
+            "usuarioId": 1012213,
+            "tipoUsuario": 861
+        }
+    ],
+    "primerApellido": "AYALA",
+    "estadoUsuarioId": 565,
+    "segundoApellido": "SILES",
+    "esUnificado": true,
+    "login": "carla.ayala@impuestos.gob.bo",
+    "tipoUsuarioId": 861,
+    "nombreCompleto": "AYALA SILES CARLA LORENA",
+    "usuarioId": 5709833,
+    "nombres": "CARLA LORENA",
+    "uuidr": "a28721ae-cfd2-48b9-9b4e-1abed5e9ffa7",
+    "complemento": "",
+    "nitCur": "8032345",
+    "numeroDocumento": "8032345",
+    "personaId": 2532626
+}
+
+
+
+
+---------------------------------------------------
+---- BOLETA DE PAGO
+
+Formulario: 1000
+nit: 2085080711
+{
+    "nitCur": 208508027,
+    "numeroOrdenBoletaPago": 79147090711,
+    "numeroOrdenDocumentoPago": 79147090711,
+    "gestion": 2025,
+    "periodo": 9,
+    "boleta": 8000,
+    "documentoQuePaga": 22793401218
+}
+
+
+
+
+ACTUALIZAR BS_USD
+
+SC-D-02 No existe casuistica para el proceso: 363
+SC-D-02 No existe casuistica para el proceso: 364
+----------------------------------------------------
+
+Tabla Administracion    
+CODIGO ADMINISTRACIÓN   DESCRIPCION
+0   SIN CENTRAL
+10  CHUQUISACA
+11  AGENCIA TRIBUTARIA CAMARGO
+12  AGENCIA TRIBUTARIA MONTEAGUDO
+19  SUCRE GC
+20  LA PAZ  I
+20  AGENCIA DISTRITAL I
+20  AGENCIA DISTRITAL II
+24  AGENCIA TRIBUTARIA CARANAVI
+30  AGENCIA TRIBUTARIA COPACABANA
+26  AGENCIA TRIBUTARIA COROICO
+21  EL ALTO
+21   AGENCIA DISTRITAL I
+21  AGENCIA DISTRITAL II
+22  COPACABANA
+23  DESAGUADERO
+24  CARANAVI
+25  LA PAZ II
+25  AGENCIA DISTRITAL I
+26  COROICO
+29  LA PAZ GC
+30  COCHABAMBA
+30  AGENCIA DISTRITAL I
+30  AGENCIA DISTRITAL II
+30  AGENCIA DISTRITAL III
+33  AGENCIA TRIBUTARIA SACABA
+34  AGENCIA TRIBUTARIA VILLA TUNARI
+31  AIQUILE
+32   DISTRITAL QUILLACOLLO
+39  COCHABAMBA GC
+40  ORURO
+40   AGENCIA DISTRITAL I
+50  POTOSI
+51  AGENCIA TRIBUTARIA UYUNI
+52  AGENCIA TRIBUTARIA TUPIZA
+53  AGENCIA TRIBUTARIA VILLAZON
+54  AGENCIA TRIBUTARIA LLALLAGUA
+60  TARIJA
+61  YACUIBA
+
+------------------------ FUNCIONARIO -------------------------------------
+{
+    "sub": "9a51e0f8-c6ac-4833-9849-128b0833eedc",
+    "datosUsuariosOld": [
+        {
+            "tipoUsuario": 861,
+            "usuarioId": 11775,
+            "personaId": 1001957061
+        }
+    ],
+    "primerApellido": "APAZA",
+    "estadoUsuarioId": 565,
+    "segundoApellido": "CHOQUEMIZA",
+    "esUnificado": true,
+    "login": "victor.apaza@impuestos.gob.bo",
+    "tipoUsuarioId": 861,
+    "nombreCompleto": "APAZA CHOQUEMIZA VICTOR HUGO",
+    "usuarioId": 5302704,
+    "dependencia": "DEPARTAMENTO DE INVESTIGACION Y DESARROLLO",
+    "nombres": "VICTOR HUGO",
+    "uuidr": "9d7b8bcd-a84d-40a4-9296-cf4e02b98f21",
+    "servidorPublicoId": 7741,
+    "complemento": "",
+    "oficina": "OFICINA CENTRAL",
+    "nitCur": "6789190",
+    "dependenciaId": 100000024,
+    "numeroDocumento": "6789190",
+    "oficinaId": 0,
+    "personaId": 4460871
+}
+
+--------------------------- CONTRIBUYENTE --------------------------------
+{
+    "objeto": {
+        "administracion": 29,
+        "contribuyenteId": 1001633567,
+        "tipoContribuyenteId": 722,
+        "estadoNit": "1",
+        "estadoDescripcion": "ACTIVO",
+        "razonSocial": "SERVICIOS DE ALIMENTOS Y BEBIDAS KOFFE CORP S.A.",
+        "nit": 183024024
+    },
+    "transaccion": true,
+    "mensajes": []
+}
+----------------------------
+
+957
+
+
+*****************************
+--- PRUEBAS PREPRODUCCIÓN
+
+3788978011
+
+*****************************
+
+
+ public SliParVariacionesActualizaciones update(SliParVariacionesActualizaciones pEntidad) throws RepositoryException {
+        trace(String.format("Ingreso a update(SliParVariacionesActualizaciones pEntidad): %s", pEntidad));
+        super.update(pEntidad);
+
+        try (Connection vConexion = getSql2o().open(); Query vQuery = vConexion.createQuery(getUpdateSQL().toString())) {
+            vQuery.addParameter(ColumnaUtil.VARIACION_ID, pEntidad.getId())
+                    .addParameter(ColumnaUtil.PROCESO_ID, pEntidad.getProcesoId())
+                    .addParameter(ColumnaUtil.DOCUMENTO_AGRUPADOR_ID, pEntidad.getDocumentoAgrupadorId())
+                    .addParameter(ColumnaUtil.DESCRIPCION_DOCUMENTO_AGRUPADOR, pEntidad.getDescripcionDocumentoAgrupador())
+                    .addParameter(ColumnaUtil.DOCUMENTO_ID, pEntidad.getDocumentoId())
+                    .addParameter(ColumnaUtil.DESCRIPCION_PROCESO, pEntidad.getDescripcionProceso())
+                    .addParameter(ColumnaUtil.DESCRIPCION_DOCUMENTO, pEntidad.getDescripcionDocumento())
+                    .addParameter(ColumnaUtil.DIAS_DESDE_NOTIFICACION, pEntidad.getDiasDesdeNotificacion())
+                    .addParameter(ColumnaUtil.DIAS_HASTA, pEntidad.getDiasHasta())
+                    .addParameter(ColumnaUtil.PORCENTAJE_SANCION, pEntidad.getPorcentajeSancion())
+                    .addParameter(ColumnaUtil.PORCENTAJE_AGRAVANTE, pEntidad.getPorcentajeAgravante())
+                    .addParameter(ColumnaUtil.OBSERVACION, pEntidad.getObservacion())
+                    .addParameter(ColumnaUtil.DOCUMENTO_FIRME, pEntidad.getDocumentoFirme())
+                    .addParameter(ColumnaUtil.MONTO_USO_SANCION_ID, pEntidad.getMontoUsoSancionId())
+                    .addParameter(ColumnaUtil.FECHA_DESDE, pEntidad.getFechaDesde())
+                    .addParameter(ColumnaUtil.FECHA_HASTA, pEntidad.getFechaHasta())
+                    .addParameter(ColumnaUtil.PORCENTAJE_BASE_SANCION, pEntidad.getPorcentajeBaseSancion())
+                    .addParameter(ColumnaUtil.PORCENTAJE_BASE_AGRAVANTE, pEntidad.getPorcentajeBaseAgravante())
+                    .addParameter(ColumnaUtil.ORIGEN_ID, pEntidad.getOrigenId())
+                    .addParameter(ColumnaUtil.INTERES, pEntidad.getInteres())
+                    .addParameter(ColumnaUtil.MANTENIMIENTO_VALOR, pEntidad.getMantenimientoValor())
+                    .addParameter("impugnado_id", pEntidad.getImpugnadoId())
+                    .addParameter(ColumnaUtil.USUARIO_ULTIMA_MODIFICACION_ID, pEntidad.getUsuarioUltimaModificacionId())
+                    .addParameter(ColumnaUtil.FECHA_ULTIMA_MODIFICACION, pEntidad.getFechaUltimaModificacion())
+                    .executeUpdate();
+        } catch (Exception ex) {
+            error(String.format("Exception en update(SliParVariacionesActualizaciones pEntidad, Connection pConexion): %s", pEntidad), ex);
+            throw new RepositoryException(ProjectPrefix.SC_A_01 + ex.getMessage(), ex);
+        }
+        return pEntidad;
+    }
+
+
+
+
+ protected StringBuilder getUpdateSQL() {
+        return new StringBuilder("UPDATE scc_cuenta_parametrica.sli_par_variaciones_actualizaciones \n" +
+                " SET proceso_id=:proceso_id, documento_agrupador_id=:documento_agrupador_id, descripcion_documento_agrupador=:descripcion_documento_agrupador, documento_id=:documento_id, " +
+                " descripcion_proceso=:descripcion_proceso, descripcion_documento=:descripcion_documento, dias_desde_notificacion=:dias_desde_notificacion, dias_hasta=:dias_hasta, " +
+                " porcentaje_sancion=:porcentaje_sancion, porcentaje_agravante=:porcentaje_agravante, observacion=:observacion, documento_firme=:documento_firme, monto_uso_sancion_id=:monto_uso_sancion_id, " +
+                " fecha_desde=:fecha_desde, fecha_hasta=:fecha_hasta, " +
+                " porcentaje_base_sancion=:porcentaje_base_sancion, porcentaje_base_agravante=:porcentaje_base_agravante, origen_id=:origen_id, interes=:interes, mantenimiento_valor=:mantenimiento_valor, " +
+                " usuario_ultima_modificacion_id=:usuario_ultima_modificacion_id, fecha_ultima_modificacion=:fecha_ultima_modificacion " +
+                " WHERE variacion_id=:variacion_id; \n");
+    }
+
+
+
+---------------------------------
+
+{
+    "procesoId": 364,
+    "descripcionProceso": "ACTA DE INFRACCIÓN POR NO EMISIÓN DE FACTURA",
+    "montoUsoSancionId": 297,
+    "montoUsoSancionDescripcion": "MONTO INICIAL DE LA DEUDA",
+    "documentoId": 354,
+    "descripcionDocumento": "ACTA DE INFRACCION",
+    "documentoAgrupadorId": 7090,
+    "descripcionDocumentoAgrupador": "ACTA DE INFRACCIÓN POR NO EMISIÓN DE FACTURA",
+    "diasDesdeNotificacion": "0",
+    "diasHasta": "0",
+    "porcentajeSancion": "10",
+    "porcentajeAgravante": "0",
+    "observacion": "100",
+    "documentoFirme": false,
+    "impugnadoId": 301,
+    "impugnadoDescripcion": "PROCESO PREJUDICIAL",
+    "fechaDesde": {
+        "year": 2025,
+        "month": 7,
+        "day": 2
+    },
+    "fechaHasta": null,
+    "porcentajeBaseSancion": 10,
+    "porcentajeBaseAgravante": 10,
+    "origenId": 303,
+    "interes": true,
+    "mantenimientoValor": false
+}
+
+
+
+
+
+
+
+
+
